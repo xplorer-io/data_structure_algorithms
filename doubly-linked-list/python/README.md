@@ -1,7 +1,9 @@
 # Compiling the program
 
 git clone git@github.com:xplorer-io/Data_structures_Algo.git
+
 cd doubly-linked-list/python
+
 python main.py
 
 # Result
