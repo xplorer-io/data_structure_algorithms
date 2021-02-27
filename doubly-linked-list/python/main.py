@@ -20,15 +20,36 @@ class DoublyLinkedList:
     """
     Doubly Linked list
 
+    Attributes
+    -----------
+    head: int
+        Pointer pointing to head of the list
+    tail: int
+        Pointer pointing to tail of the list
+
     Methods
     ---------
 
-    insert_at_empty : Inserts element when list if empty
-    insert_at_first : Insert element at first of the list
-    insert_at_nposition: Insert element at n poistion (middle)
-    insert_at_end: Insert element at end
-    delete at pos: Delete element at n position
-        1 for deleting element at first
+    insert_at_empty : 
+        Inserts element when list if empty
+
+    insert_at_first : 
+        Insert element at first of the list
+
+    insert_at_nposition: 
+        Insert element at n poistion (middle)
+
+    insert_at_end: 
+        Insert element at end
+
+    delete at pos: 
+        Delete element at n position (eg. 1 for deleting element at first)
+
+    display_list: 
+        Display doubly linked list
+
+    display_list_rev: 
+        Display doubly linked list in reverse.
 
     """
     def __init__(self):
